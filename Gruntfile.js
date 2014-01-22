@@ -9,10 +9,8 @@ module.exports = function (grunt) {
   var cfg = {
     pkg: pkg,
     bump: {
-      release : {
-        options: {
-          pushTo: 'origin'
-        }
+      options: {
+        pushTo: 'origin'
       }
     }
   };
