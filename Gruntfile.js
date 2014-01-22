@@ -4,13 +4,15 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   var
-    pkg = gruntFile.readJSON('package.json');
+    pkg = grunt.file.readJSON('package.json');
 
   var cfg = {
     pkg: pkg,
     bump: {
       release : {
-        
+        options: {
+          pushTo: 'origin'
+        }
       }
     }
   };
