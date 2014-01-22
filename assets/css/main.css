@@ -24,8 +24,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  /*font: 13px/1.4 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', 'Bitstream Vera Sans', 'Helvetica', 'Arial', sans-serif;*/
-  font: 14px/1.4 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+  font: 14px/1.4 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #666;
@@ -212,7 +211,7 @@ th {
   padding: 0 20px 0 25px;
 }
 .sidebar {
-  padding: 0 15px 0 10px;
+  padding: 0 15px 0 20px;
 }
 #bd {
   padding: 7px 0 130px;
@@ -711,10 +710,10 @@ kbd .cmd {
   line-height: 40px;
   font-size: 18px;
   font-weight: 300;
-  font-family: 'Source Sans Pro', 'Helvetica Neue';
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   border: none;
   border-bottom: 1px solid #DFDFDF;
-  padding-left: 8px;
+  padding-left: 2px;
   color: #444;
 }
 #api-filter:focus {
