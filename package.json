@@ -17,5 +17,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/royriojas/yuidoc-theme-blue/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bump": "0.0.13",
+    "time-grunt": "~0.2.8",
+    "matchdep": "~0.3.0"
   }
 }
