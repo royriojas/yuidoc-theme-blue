@@ -25,4 +25,5 @@ If you install yuidoc from this fork https://github.com/royriojas/yuidoc, then y
 `````
 @exampleurl // points to a url that could be embeded in an iframe like this one http://jsfiddle.net/royriojas/ZuAhz/embedded/
 `````
+
 I needed that attribute to put examples on the methods and APIs that could be more like live examples of my API.
