@@ -22,6 +22,8 @@
     "grunt": "~0.4.2",
     "grunt-bump": "0.0.13",
     "time-grunt": "~0.2.8",
-    "matchdep": "~0.3.0"
+    "matchdep": "~0.3.0",
+    "grunt-jsbeautifier": "git://github.com/royriojas/grunt-jsbeautifier",
+    "yuidocjs": "git://github.com/royriojas/yuidoc"
   }
 }
