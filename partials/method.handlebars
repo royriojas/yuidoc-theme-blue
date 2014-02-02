@@ -197,11 +197,5 @@
         </div>
     {{/example}}
 
-    {{#if exampleurl}}
-      <div class="blue-live-example">
-        <h4>Live example:</h4>
-        <iframe width="{{#if exampleUrlWidth}} {{exampleUrlWidth}} {{else}} 100% {{/if}}" height="{{#if exampleUrlHeight}} {{exampleUrlHeight}} {{else}} 300{{exampleUrlHeight}} {{/if}}" src="{{exampleurl}}" allowfullscreen="allowfullscreen" frameborder="0">
-        </iframe>
-      </div>
-    {{/if}}
+    {{> exampleurl }}
 </div>
